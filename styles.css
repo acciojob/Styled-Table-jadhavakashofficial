@@ -1,1 +1,30 @@
-/* your code */
+/* Table container styling */
+table {
+  width: 80%;
+  margin: 2rem auto;      /* Centers the table and adds vertical spacing */
+  border-collapse: collapse;
+  font-family: Arial, sans-serif;
+  text-align: left;
+}
+
+/* Header row styling */
+thead {
+  background-color: #0D4E7C;  /* Dark blue */
+  color: #fff;               /* White text for contrast */
+}
+
+/* Table header cells */
+th, td {
+  padding: 12px 15px;
+  border: 1px solid #ddd;    /* Subtle border around cells */
+}
+
+/* Even row background color */
+tbody tr:nth-child(even) {
+  background-color: #f2f2f2; /* Light gray for striping */
+}
+
+/* Odd row background color */
+tbody tr:nth-child(odd) {
+  background-color: #fff;
+}
